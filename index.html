@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+   
+   
+</head>
+<body>
+<p class="text-capitalize">primeira maiuscula</p>
+<blockquote class="blockquote">
+    <p>esse é um bloco de citação</p>
+</blockquote>
+
+<blockquote class="blockquote text-right">
+    <p>Ao</p>
+    <p>senhor excelentissimo</p>
+    <p>Maiamona Elias Cazevo Garcia</p>
+    <footer class="blockquote-footer">por
+        <cite>jamilton damasceno</cite>
+    </footer>
+</blockquote>
+
+<p class="text-truncate">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi vitae, recusandae dicta perspiciatis deserunt autem quasi illum officiis porro? Cupiditate esse debitis perspiciatis quasi veniam minus quibusdam dignissimos reprehenderit rem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae beatae inventore amet sapiente est iusto maiores nisi natus architecto esse corrupti sunt obcaecati modi quidem, in, et iure reiciendis hic.</p>
+
+<p class="text-sm-right">tela &gt;= 576px</p><!-- small(sm) -->
+<p class="text-md-right">tela &gt;= 768px</p><!-- medium(md) -->
+<p class="text-lg-right">tela &gt;= 992px</p><!-- large(lg) -->
+<p class="text-xl-right">tela &gt;= 1200px</p><!-- extra large(xl) -->
+
+<div class="clearfix" style="border: 1px solid red">
+    <div class="bg-success float-left">float left</div>
+    <div class="bg-warning float-right">float right</div>
+</div>
+
+<div class="float-sm-right">tela &gt;= 576px * </div><!-- small(sm) -->
+<div class="float-md-right">tela &gt;= 768px * </div><!-- medium(md) -->
+<div class="float-lg-right">tela &gt;= 992px * </div><!-- large(lg) -->
+<div class="float-xl-right">tela &gt;= 1200px * </div><!-- extra large(xl) -->
+
+<h1 class="text-black-50">texto black 50</h1>
+<h1 class="text-dark">texto dark</h1>
+<h1 class="text-primary">texto primary</h1>
+
+<p class="bg-success mx-5">conteudo principal</p>
+<p class="bg-success my-5">conteudo principal</p>
+<p class="bg-success m-5">conteudo principal</p>
+<p class="bg-success text-center p-5">conteudo principal</p>
+
+<div class="bg-primary w-25">width 25%</div>
+<div class="bg-primary w-50">width 50%</div>
+<div class="bg-primary w-75">width 75%</div>
+<div class="bg-primary w-100">width 100%</div>
+<div class="bg-primary w-auto">width auto</div>
+<br>
+<div style="height: 300px;border: 1px solid gray;">
+<div class="bg-warning d-inline-block h-25">height 25%</div>
+<div class="bg-warning d-inline-block h-50">height 50%</div>
+<div class="bg-warning d-inline-block h-75">height 75%</div>
+<div class="bg-warning d-inline-block h-100">height 100%</div>
+<div class="bg-warning d-inline-block h-auto">height auto%</div>
+</div>
+<div class="bg-primary m-3 p-5 border w-25  rounded-circle">rounded circle</div>
+
+<input class="btn btn-link" type="button" value="Link">
+<input class="btn badge-danger" type="submit" value="input btn submit">
+<input class="btn badge-dark" type="reset" value="input btn reset">
+<button class="btn btn-outline-info" type="button">botao com contorno</button>
+<br><br>
+<button class="btn btn-success" type="button" data-toggle="button">Altera btn ativo/inativo</button>
+<br><br>
+<div class="btn-group-vertical">
+    <button class="btn btn-danger" type="button">topo</button>
+    <button class="btn btn-danger" type="button">meio</button>
+    <button class="btn btn-danger" type="button">meio</button>
+    <button class="btn btn-danger" type="button">fundo</button>
+</div>
+<br><br>
+<div>
+    <div class="btn-group">
+        <button class="btn btn-danger">1</button>
+        <button class="btn btn-danger">2</button>
+        <button class="btn btn-danger">3</button>
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-danger">4</button>
+        <button class="btn btn-danger">5</button>
+        <button class="btn btn-danger">6</button>
+    </div>
+</div>
+<br><br>
+<div class="btn-toolbar">
+    <div class="btn-group">
+        <button class="btn btn-danger">1</button>
+        <button class="btn btn-danger">2</button>
+        <button class="btn btn-danger">3</button>
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-danger">4</button>
+        <button class="btn btn-danger">5</button>
+        <button class="btn btn-danger">6</button>
+    </div>
+</div>
+<br><br>
+<h3>botoes dropdown</h3>
+    <div class="dropdown">
+        <button class="btn btn-success dropdown-toggle"
+        data-toggle="dropdown" type="button">
+            clique
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">link 1</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">link 2</a>
+            <a href="#" class="dropdown-item">link 3</a>
+        </div>
+    </div>
+    <br><br>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="">home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">contato</a>
+        </li>
+    </ul>
+    <br><br>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" href="">home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">contato</a>
+        </li>
+    </ul>
+    <br><br>
+    <ul class="nav nav-tabs justify-content-center"><!-- justify-content-end -->
+        <li class="nav-item">
+            <a class="nav-link active" href="">home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">contato</a>
+        </li>
+    </ul>
+    <br><br>
+    <ul class="nav nav-tabs flex-column w-25 m-5 text-center"><!-- justify-content-end -->
+        <li class="nav-item">
+            <a class="nav-link active bg-success" href="">home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-info" href="">menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-info" href="">contato</a>
+        </li>
+    </ul>
+    <br><br>
+    <ul class="nav nav-pills flex-column w-25 m-5 text-center"><!-- justify-content-end -->
+        <li class="nav-item">
+            <a class="nav-link active bg-success" href="">home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-info" href="">menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-info" href="">contato</a>
+        </li>
+    </ul>
+    <br><br>
+    <p>caixa entrada<span class="badge badge-warning">120</span></p>
+    <br><br>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active">home</li>
+        <li class="breadcrumb-item"><a href="">noticia</a></li>
+        <li class="breadcrumb-item"><a href="">contato</a></li>
+    </ol>
+    <br><br>
+   <form class="form-inline">
+       <input class="form-control mr-2" type="text" placeholder="digite seu usuario">
+       <input class="form-control mr-2" type="password" placeholder="digite sua senha">
+       <input class="btn btn-primary" type="submit" value="logar">
+    </form>
+    <form>
+        <div class="form-group">
+            <label for="email-usuario">email</label>
+            <input type="text" class="form-control is-valid" placeholder="digite seu e-mail">
+            <div class="valid-feedback">senha invalida</div>
+        </div>
+        <div class="form-group">
+            <label for="senha-usuario">senha</label>
+            <input type="email" class="form-control is-invalid" placeholder="digite sua senha">
+            <div class="invalid-feedback">senha invalida</div>
+        </div>
+    </form>
+    <h2>alerta com botao fechar</h2>
+    <div class="alert alert-success alert-dismissible">
+        <button class="close" type="button" data-dismiss="alert">
+            &times;
+        </button>
+        <strong>fechar</strong>alerta com botao fechar
+    </div>
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a href="" class="page-link">anterior</a>
+            </li>
+            <li class="page-item active">
+                <a href="" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">proximo</a>
+            </li>
+        </ul>
+    </nav>
+    <nav>
+    <nav>
+        <ul class="pagination pagination-sm">
+            <li class="page-item">
+                <a href="" class="page-link">anterior</a>
+            </li>
+            <li class="page-item active">
+                <a href="" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">proximo</a>
+            </li>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="pagination justify-content-end">
+            <li class="page-item">
+                <a href="" class="page-link">anterior</a>
+            </li>
+            <li class="page-item active">
+                <a href="" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">proximo</a>
+            </li>
+        </ul>
+    </nav>
+    <br><br>
+    <h3 class="border-bottom">cartao simples</h3>
+    <div style="display: flex; justify-content: space-between;">
+    <div class="card w-25">
+        <img class="card-img-top" src="./tarde.jpg" alt="">
+        <div class="card-body">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem commodi enim reprehenderit maxime fugiat voluptates, fuga nisi saepe vero nostrum aliquid error?</p>
+            <a href="" class="btn btn-outline-primary">leia mais</a>
+        </div>
+    </div>
+    <div class="card w-25">  
+        <div class="card-body">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem commodi enim reprehenderit maxime fugiat voluptates, fuga nisi saepe vero nostrum aliquid error?</p>
+            <a href="" class="btn btn-outline-primary">leia mais</a>
+        </div>
+        <img class="card-img-bottom" src="./tarde.jpg" alt="">
+    </div>
+</div>
+<br><br>
+<div class="card w-25 text-light">
+    <img class="card-img" src="./tarde.jpg" alt="">
+    <div class="card-img-overlay">
+        <h4 class="card-title">titulo do cartao</h4>
+        <h6 class="card-subtitle">subtitulo do cartao</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem</p>
+        <a href="" class="btn btn-outline-primary btn-block">leia mais</a>
+    </div>
+</div>
+<br><br>
+<div class="card w-25 text-light bg-dark border-danger">
+    <div class="card-header">
+        cabeçalho do cartao
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">titulo do cartao</h4>
+        <h6 class="card-subtitle">subtitulo do cartao</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem</p>
+        <a href="" class="btn btn-outline-primary btn-block">leia mais</a>
+    </div>
+</div>
+<br><br>
+<div class="card-columns">
+    <div class="card ">
+        <img class="card-img-top" src="./tarde.jpg" alt="">
+        <div class="card-body">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem commodi enim reprehenderit maxime fugiat voluptates, fuga nisi saepe vero nostrum aliquid error?</p>
+            <a href="" class="btn btn-outline-primary">leia mais</a>
+        </div>
+    </div>
+    <div class="card ">  
+        <div class="card-body">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem commodi enim reprehenderit maxime fugiat voluptates, fuga nisi saepe vero nostrum aliquid error?</p>
+            <a href="" class="btn btn-outline-primary">leia mais</a>
+        </div>
+        <img class="card-img-bottom" src="./tarde.jpg" alt="">
+    </div>
+    <div class="card ">  
+        <div class="card-body">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem commodi enim reprehenderit maxime fugiat voluptates, fuga nisi saepe vero nostrum aliquid error?</p>
+            <a href="" class="btn btn-outline-primary">leia mais</a>
+        </div>
+        <img class="card-img-bottom" src="./tarde.jpg" alt="">
+    </div>
+    <div class="card ">
+        <img class="card-img-top" src="./tarde.jpg" alt="">
+        <div class="card-body">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem commodi enim reprehenderit maxime fugiat voluptates, fuga nisi saepe vero nostrum aliquid error?</p>
+            <a href="" class="btn btn-outline-primary">leia mais</a>
+        </div>
+    </div>
+     <div class="card ">
+        <img class="card-img-top" src="./tarde.jpg" alt="">
+        <div class="card-body">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem commodi enim reprehenderit maxime fugiat voluptates, fuga nisi saepe vero nostrum aliquid error?</p>
+            <a href="" class="btn btn-outline-primary">leia mais</a>
+        </div>
+    </div>
+    <div class="card ">  
+        <div class="card-body">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum itaque iste alias voluptatem molestias eum rem commodi enim reprehenderit maxime fugiat voluptates, fuga nisi saepe vero nostrum aliquid error?</p>
+            <a href="" class="btn btn-outline-primary">leia mais</a>
+        </div>
+        <img class="card-img-bottom" src="./tarde.jpg" alt="">
+    </div>
+</div>
+<br><br>
+<div class="card-columns">
+    <div class="card text-light">
+        <img class="card-img" src="./tarde.jpg" alt="">
+        <div class="card-img-overlay">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum labore voluptatibus ratione consequatur doloremque id, voluptas incidunt voluptatem magni perferendis dicta porro ipsam iste ut quo error unde molestiae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, dicta! Eaque eveniet atque inventore. Neque, corporis. Laudantium corrupti neque, provident aliquid ad perspiciatis cumque odio sunt</p>
+            <a href="" class="btn btn-outline-primary btn-block">leia mais</a>
+        </div>
+    </div>
+    <div class="card text-light">
+        <img class="card-img" src="./tarde.jpg" alt="">
+        <div class="card-img-overlay">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum labore voluptatibus ratione consequatur doloremque id, voluptas incidunt voluptatem magni perferendis dicta porro ipsam iste ut quo error unde molestiae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, dicta! Eaque eveniet atque inventore. Neque, corporis. Laudantium corrupti neque, provident aliquid ad perspiciatis cumque odio sunt</p>
+            <a href="" class="btn btn-outline-primary btn-block">leia mais</a>
+        </div>
+    </div>
+    <div class="card text-light">
+        <img class="card-img" src="./tarde.jpg" alt="">
+        <div class="card-img-overlay">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum labore voluptatibus ratione consequatur doloremque id, voluptas incidunt voluptatem magni perferendis dicta porro ipsam iste ut quo error unde molestiae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, dicta! Eaque eveniet atque inventore. Neque, corporis. Laudantium corrupti neque, provident aliquid ad perspiciatis cumque odio sunt</p>
+            <a href="" class="btn btn-outline-primary btn-block">leia mais</a>
+        </div>
+    </div>
+    <div class="card text-light">
+        <img class="card-img" src="./tarde.jpg" alt="">
+        <div class="card-img-overlay">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum labore voluptatibus ratione consequatur doloremque id, voluptas incidunt voluptatem magni perferendis dicta porro ipsam iste ut quo error unde molestiae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, dicta! Eaque eveniet atque inventore. Neque, corporis. Laudantium corrupti neque, provident aliquid ad perspiciatis cumque odio sunt</p>
+            <a href="" class="btn btn-outline-primary btn-block">leia mais</a>
+        </div>
+    </div>
+    <div class="card text-light">
+        <img class="card-img" src="./tarde.jpg" alt="">
+        <div class="card-img-overlay">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum labore voluptatibus ratione consequatur doloremque id, voluptas incidunt voluptatem magni perferendis dicta porro ipsam iste ut quo error unde molestiae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, dicta! Eaque eveniet atque inventore. Neque, corporis. Laudantium corrupti neque, provident aliquid ad perspiciatis cumque odio sunt</p>
+            <a href="" class="btn btn-outline-primary btn-block">leia mais</a>
+        </div>
+    </div>
+    <div class="card text-light">
+        <img class="card-img" src="./tarde.jpg" alt="">
+        <div class="card-img-overlay">
+            <h4 class="card-title">titulo do cartao</h4>
+            <h6 class="card-subtitle">subtitulo do cartao</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum labore voluptatibus ratione consequatur doloremque id, voluptas incidunt voluptatem magni perferendis dicta porro ipsam iste ut quo error unde molestiae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, dicta! Eaque eveniet atque inventore. Neque, corporis. Laudantium corrupti neque, provident aliquid ad perspiciatis cumque odio sunt</p>
+            <a href="" class="btn btn-outline-primary btn-block">leia mais</a>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="card-group">
+    <div class="card mx-2">
+      <img class="card-img-top" src="./tarde.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card mx-2">
+      <img class="card-img-top" src="./tarde.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card mx-2">
+      <img class="card-img-top" src="./tarde.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card mx-2">
+      <img class="card-img-top" src="./tarde.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card mx-2">
+      <img class="card-img-top" src="./tarde.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <h3 class="border-bottom">estrutura para imagens</h3>
+  <div class="media">
+      <img src="https://source.unsplash.com/random/60x60" alt="" class="mr-3">
+      <div class="media-body">
+          <h5>titulo do conteudo</h5>
+          <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae fugit perferendis sequi ducimus nam tempora minima voluptatibus sit delectus quas facilis repellat eligendi, impedit aliquam reiciendis! Eligendi reprehenderit iure voluptatibus?</p>
+      </div>
+  </div>
+  <br><br>
+  <h3 class="border-bottom">estrutura para imagens</h3>
+  <div class="media">
+      <img src="https://source.unsplash.com/random/60x60" alt="" class="mr-3 align-self-center">
+      <div class="media-body">
+          <h5>titulo do conteudo</h5>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, doloremque. Hic fuga facere, aliquam et consequatur dolorem nostrum asperiores saepe perspiciatis debitis veniam corrupti illum blanditiis quae necessitatibus perferendis nobis?</p>
+      </div>
+  </div>
+  <br><br>
+  <h3 class="border-bottom">estrutura para imagens</h3>
+  <div class="media">
+      <img src="https://source.unsplash.com/random/60x60" alt="" class="mr-3 align-self-end">
+      <div class="media-body">
+          <h5>titulo do conteudo</h5>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, doloremque. Hic fuga facere, aliquam et consequatur dolorem nostrum asperiores saepe perspiciatis debitis veniam corrupti illum blanditiis quae necessitatibus perferendis nobis?</p>
+      </div>
+  </div>
+  <br><br>
+  <h3 class="border-bottom">listas com imagens</h3>
+  <ul class="list-unstyled">
+      <li class="media border pb-2 pt-2">
+          <img class="mr-2 align-self-center" src="https://source.unsplash.com/random/60x60" alt="">
+          <div class="media-body">
+              <h5>titulo do conteudo</h5>
+              <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum tempore minima sint consequuntur molestiae commodi. Autem, architecto! Vel maiores exercitationem possimus temporibus unde corrupti! Delectus incidunt amet alias quaerat aliquam?</p>
+          </div>
+      </li>
+      <li class="media border pb-2 pt-2">
+          <img class="mr-2 align-self-center" src="https://source.unsplash.com/random/60x60" alt="">
+          <div class="media-body">
+              <h5>titulo do conteudo</h5>
+              <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum tempore minima sint consequuntur molestiae commodi. Autem, architecto! Vel maiores exercitationem possimus temporibus unde corrupti! Delectus incidunt amet alias quaerat aliquam?</p>
+          </div>
+      </li>
+  </ul>
+  <br><br>
+  <i class="fas fa-bolt display-1 text-danger"></i>
+  <span class="fas fa-futbol display-1 text-success"></span>
+  <button class="btn btn-dark btn-lg">
+      <i class="fas fa-bolt"></i>
+      clique aqui
+    </button>
+  <button class="btn btn-dark btn-lg">
+      <i class="fas fa-bolt"></i>
+    </button>
+    <br><br>
+    <div class="container marcador-container">
+        <div class="row">
+            <div class="marcador col-6 col-sm-2 col-md-10 col-lg-4 col-xl-8">
+                area 1
+            </div>
+            <div class="marcador col-6 col-sm-10 col-md-2 col-lg-8 col-xl-4">
+                area 2
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="container marcador-container">
+        <h2>largura fixa</h2>
+        <div class="row" style="border: 1px solid red">
+            <div class="marcador col">area 1</div>
+            <div class="marcador col">area 2</div>
+            <div class="marcador col">area 3</div>
+            <div class="marcador col">area 4</div>
+        </div>
+        <h2>ordenado</h2>
+        <div class="row" style="border: 1px solid red">
+            <div class="marcador col order-4">area 1</div>
+            <div class="marcador col order-3">area 2</div>
+            <div class="marcador col order-2">area 3</div>
+            <div class="marcador col order-1">area 4</div>
+        </div>
+        <h2>offset</h2>
+        <div class="row">
+            <div class="marcador col-md-6 offset-3">login</div>
+        </div>
+        <h2>offset multiplos alinhamentos</h2>
+        <div class="row">
+            <div class="marcador col-md-3 offset-md-3">conteudo 1</div>
+            <div class="marcador col-md-3 offset-md-3">conteudo 2</div>
+        </div>
+        <h2>offset multiplos alinhamentos</h2>
+        <div class="row">
+            <div class="marcador col-md-3">conteudo 1</div>
+            <div class="marcador col-md-3 offset-md-6">conteudo 2</div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h2>alinhamento vertical</h2>
+        <div class="marcador row align-items-end" style="height: 113px;">
+            <div class="col borda">area 1</div>
+            <div class="col borda">area 2</div>
+            <div class="col borda">area 3</div>
+        </div>
+        <h2>alinhamento vertical</h2>
+        <div class="marcador row align-items-center" style="height: 113px;">
+            <div class="col borda">area 1</div>
+            <div class="col borda">area 2</div>
+            <div class="col borda">area 3</div>
+        </div>
+        <h2>alinhamento vertical</h2>
+        <div class="marcador row align-items-start" style="height: 113px;">
+            <div class="col borda">area 1</div>
+            <div class="col borda">area 2</div>
+            <div class="col borda">area 3</div>
+        </div>
+        <h2>alinhamento vertical</h2>
+        <div class="marcador row" style="height: 113px;">
+            <div class="col borda align-self-start">area 1</div>
+            <div class="col borda align-self-center">area 2</div>
+            <div class="col borda align-self-end">area 3</div>
+        </div>
+        <h2>alinhamento vertical</h2>
+        <div class="marcador row justify-content-end" style="height: 113px;">
+            <div class="col-2 borda">area 1</div>
+            <div class="col-2 borda">area 2</div>
+            <div class="col-2 borda">area 3</div>
+    </div>
+    <div class="container">
+        <h2>alinhamento vertical</h2>
+        <div class="marcador row justify-content-center" style="height: 113px;">
+            <div class="col-2 borda">area 1</div>
+            <div class="col-2 borda">area 2</div>
+            <div class="col-2 borda">area 3</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>alinhamento vertical</h2>
+        <div class="marcador row justify-content-start" style="height: 113px;">
+            <div class="col-2 borda">area 1</div>
+            <div class="col-2 borda">area 2</div>
+            <div class="col-2 borda">area 3</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>alinhamento vertical</h2>
+        <div class="marcador row justify-content-between" style="height: 113px;">
+            <div class="col-2 borda">area 1</div>
+            <div class="col-2 borda">area 2</div>
+            <div class="col-2 borda">area 3</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>remover espaçamento</h2>
+        <div class="marcador row no-gutters" style="height: 113px;">
+            <div class="col-2 borda">area 1</div>
+            <div class="col-2 borda">area 2</div>
+            <div class="col-2 borda">area 3</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>flex container</h2>
+        <div class="marcador d-flex align-items-baseline" style="height: 113px;">
+            <div class="item borda" style="padding-top: 30px;">flex item 1</div>
+            <div class="item borda">flex item 2</div>
+            <div class="item borda" style="padding-bottom: 40px;">flex item 3</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>flex container</h2>
+        <div class="marcador d-flex" style="height: 113px;">
+            <div class="item borda align-self-start" >flex item 1</div>
+            <div class="item borda align-self-center">flex item 2</div>
+            <div class="item borda align-self-end" >flex item 3</div>
+            <div class="item borda align-self-baseline" >flex item 4</div>
+            <div class="item borda align-self-stretch">flex item 5</div>
+           
+        </div>
+    </div>
+    <div class="container">
+        <h2>remover espaçamento</h2>
+        <div class="marcador row no-gutters" style="height: 113px;">
+            <div class="col-2 borda">area 1</div>
+            <div class="col-2 borda ml-auto mr-auto">area 2</div>
+            <div class="col-2 borda">area 3</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>flex container</h2>
+        <div class="marcador d-flex flex-nowrap" style="height: 113px;">
+            <div class="item borda" >flex item 1</div>
+            <div class="item borda">flex item 2</div>
+            <div class="item borda" >flex item 3</div>
+            <div class="item borda" >flex item 4</div>
+            <div class="item borda">flex item 5</div>
+            <div class="item borda" >flex item 1</div>
+            <div class="item borda">flex item 2</div>
+            <div class="item borda" >flex item 3</div>
+            <div class="item borda" >flex item 4</div>
+            <div class="item borda">flex item 5</div>
+            <div class="item borda" >flex item 1</div>
+            <div class="item borda">flex item 2</div>
+            <div class="item borda" >flex item 3</div>
+            <div class="item borda" >flex item 4</div>
+            <div class="item borda">flex item 5</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>flex container</h2>
+        <div class="marcador d-flex flex-wrap" style="height: 113px;">
+            <div class="item borda" >flex item 1</div>
+            <div class="item borda">flex item 2</div>
+            <div class="item borda" >flex item 3</div>
+            <div class="item borda" >flex item 4</div>
+            <div class="item borda">flex item 5</div>
+            <div class="item borda" >flex item 1</div>
+            <div class="item borda">flex item 2</div>
+            <div class="item borda" >flex item 3</div>
+            <div class="item borda" >flex item 4</div>
+            <div class="item borda">flex item 5</div>
+            <div class="item borda" >flex item 1</div>
+            <div class="item borda">flex item 2</div>
+            <div class="item borda" >flex item 3</div>
+            <div class="item borda" >flex item 4</div>
+            <div class="item borda">flex item 5</div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
