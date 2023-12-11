@@ -1,0 +1,20 @@
+body{
+    margin-bottom: 200px;
+    padding: 16px;
+    /* width: 600px;
+    margin: 0 auto; */
+}
+
+.marcador{
+    background: #fe9d9d;
+    border: 1px solid #f94646;
+}
+.marcador-container{
+    background: #5bf946;
+    border: 1px solid #36ae26;
+}
+
+.borda{
+    border: 1px solid green;
+}
+
